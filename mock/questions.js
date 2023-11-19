@@ -6,7 +6,7 @@ module.exports = [
         method: 'get',
         response: () => {
             return {
-                error: 0,
+                errno: 0,
                 data: {
                     id: Random.id(),
                     title: Random.ctitle()
@@ -20,7 +20,7 @@ module.exports = [
         method: 'post',
         response: () => {
             return {
-                error: 0,
+                errno: 0,
                 data: {
                     id: Random.id(),
                     title: Random.ctitle(),

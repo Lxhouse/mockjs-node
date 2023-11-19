@@ -6,7 +6,7 @@ module.exports = [
         method: 'get',
         response: () => {
             return {
-                error: 0,
+                errno: 0,
                 data: {
                     name: Random.cname()
                 }
