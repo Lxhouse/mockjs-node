@@ -1,5 +1,5 @@
-const Mock = require('mockjs')
-const Random = Mock.Random
+const Mock = require("mockjs");
+const Random = Mock.Random;
 module.exports = [
     {
         url: '/api/test',
